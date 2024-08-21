@@ -1,7 +1,7 @@
 import express, { Express } from 'express';
 import bodyParser from 'body-parser';
-import userRoutes from "./routes/userRoutes";
-import whatsappRoutes from "./routes/whatsappRoutes";
+import userRoutes from "./routes/userRoutes/userRoutes";
+import whatsappRoutes from "./routes/servicesRoutes/appRoutes";
 
 
 // Initialize Express app

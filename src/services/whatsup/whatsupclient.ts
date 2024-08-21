@@ -102,7 +102,6 @@ export class WhatsupService
             try {
                 // Find the user in the 'users' MongoDB collection
                 let user = await whatsappUserModel.findOne({ userId: userId });
-
                 // If the user doesn't exist, create a new user document
                 if (!user) {
                     user = new whatsappUserModel({

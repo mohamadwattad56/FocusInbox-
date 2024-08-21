@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { UserModel } from '../mongoSchemas/userModel';
-import { process } from '../controllers/whatsappController'; // Import your process function
+import { process } from './appController'; // Import your process function
 import { v4 as uuidv4 } from 'uuid'; // Import UUID generator
 
 // Define a map to store UUID to token relationship

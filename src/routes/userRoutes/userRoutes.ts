@@ -1,6 +1,6 @@
 import express, { Router } from 'express';
-import {registerUser, userInfo} from '../controllers/userController';
-import { getWhatsappAuthStatus } from '../controllers/whatsappController';
+import {registerUser, userInfo} from '../../controllers/userController';
+import { getWhatsappAuthStatus } from '../../controllers/appController';
 
 
 
